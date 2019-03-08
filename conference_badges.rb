@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(array)
   badges = []
-  for i in array
+  for i in array do
     badges << badge_maker(i)
   end
 end
