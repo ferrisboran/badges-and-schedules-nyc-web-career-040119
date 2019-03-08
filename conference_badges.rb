@@ -3,7 +3,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
-
+  badges = []
+  for i in array
+    badges << badge_maker(i)
+  end
 end
 
 def assign_rooms(array)
