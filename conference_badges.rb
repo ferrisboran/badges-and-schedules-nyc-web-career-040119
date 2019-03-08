@@ -19,3 +19,12 @@ def assign_rooms(array)
   end
   assigned
 end
+
+def printer
+  i = 0
+  badges = batch_badge_creator
+  assigned = assign_rooms
+  badges.each do |badge|
+    puts badge
+  end
+end
