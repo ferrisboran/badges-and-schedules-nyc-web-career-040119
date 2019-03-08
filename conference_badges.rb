@@ -3,6 +3,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array)
+
+end
+
+def assign_rooms(array)
   room = 1
   i = 0
   while room < 8
